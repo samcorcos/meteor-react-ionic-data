@@ -1,1 +1,1 @@
-MyData = new Mongo.Collection('myData');
+MyData = new Mongo.Collection("myData");
