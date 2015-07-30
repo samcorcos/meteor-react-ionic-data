@@ -8,7 +8,7 @@ Home = React.createClass({
   render() {
     let list = this.data.users.map(function(user) {
       return (
-        <div className="item item-avatar" key={Random.hexString(24)}>
+        <div className="item item-avatar" key={user}>
           <img src={user.avatar}></img>
           <h2>{user.name}</h2>
           <p>{user.email}</p>
